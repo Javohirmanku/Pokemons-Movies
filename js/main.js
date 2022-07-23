@@ -20,7 +20,7 @@ elBtn2.addEventListener("click", function(){
 
 elBtn3.addEventListener("click", function(){
   elRow.innerHTML = null;
-  elRow.innerHTML = `<p class="card h-100" >Cleaned</p>`;
+  elRow.innerHTML = `<p class="card h-100 text-center" >Cleaned</p>`;
   elResult.textContent = "Cleaned!";
 });
 
@@ -32,7 +32,7 @@ function render(array) {
     newOneDiv.classList = "col";
     
     let newTwoDiv = document.createElement("div");
-    newTwoDiv.classList = "card h-100";
+    newTwoDiv.classList = "card h-100 border border-dark rounded shadow-lg";
     
     let newImg = document.createElement("img");
     newImg.classList = "imgPM";

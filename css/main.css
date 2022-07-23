@@ -7,3 +7,12 @@
   margin: auto;
   padding-top: 15px;
 }
+
+.rounded{
+  border-radius: 10px!important;
+}
+
+.rounded:hover{
+  transform: scale(1.1);
+  transition: all 1s;
+}
